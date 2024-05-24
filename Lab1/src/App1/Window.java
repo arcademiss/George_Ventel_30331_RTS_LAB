@@ -4,7 +4,6 @@ import javax.swing.*;
 import java.util.ArrayList;
 
 public class Window extends JFrame implements Observer {
-    //observatul este fereastra
     ArrayList<JProgressBar> bars=new ArrayList<JProgressBar>();
 
     // Constructor to initialize the window
@@ -32,7 +31,7 @@ public class Window extends JFrame implements Observer {
     {
         bars.get(id).setValue(val);
     }
-    // not used from what i see
+
 
     // Observer method called when a Fir thread notifies the window about progress
     public void update(int id, int value)

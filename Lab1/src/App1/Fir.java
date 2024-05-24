@@ -27,7 +27,7 @@ public class Fir extends Thread implements Observable {
             c++;
 
             // Notifying observers about the progress of the thread
-            notifyObservers(id,c); //notifici alt fir de executie
+            notifyObservers(id,c);
             try{
                 Thread.sleep(10); // Introducing a small delay to see better
             }
