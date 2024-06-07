@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13753a63-6916-446d-b1e6-ca795b1aa569" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App1/App1Lab7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App1/App1Lab7/Thread1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App1/App1Lab7Semaphore/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App1/App1Lab7Semaphore/Thread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App1/ClassDiagramApp1Semaphore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App1/ClassDiagramApp1lock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App1/SequenceDiagramApp1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App1/StatechartDiagramApp1lock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App1/StatechartDiagramApp1semaphore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App2/App2Lab7Lock/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App2/App2Lab7Lock/Thread1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App2/App2Lab7Semaphore/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App2/App2Lab7Semaphore/Thread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App2/ClassDiagramApp2Lock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App2/ClassDiagramApp2Semaphore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App2/SequenceDiagramApp2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App2/StatechartDiagramApp2lock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App2/StatechartDiagramApp2semaphore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App3/App3Lab7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App3/App3Lab7/Thread1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App3/ClassDiagramApp3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App3/SequenceDiagramApp3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App3/StatechartDiagramApp3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/Lab7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/out/production/Lab7/App1_ReentrantLock/Fir_App1_ReentrantLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/out/production/Lab7/App1_ReentrantLock/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/out/production/Lab7/App1_Sempahore/Fir_App1_Semaphore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/out/production/Lab7/App1_Sempahore/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/out/production/Lab7/App2_ReentrantLock/Fir_App2_1_ReentrantLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/out/production/Lab7/App2_ReentrantLock/Fir_App2_2_ReentrantLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/out/production/Lab7/App2_ReentrantLock/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/out/production/Lab7/App2_Semaphore/Fir_App2_1_Semaphore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/out/production/Lab7/App2_Semaphore/Fir_App2_2_Semaphore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/out/production/Lab7/App2_Semaphore/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/out/production/Lab7/App3/Fir_App3_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/out/production/Lab7/App3/Fir_App3_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/out/production/Lab7/App3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/out/production/Lab7/App4/App4_PN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/App1_ReentrantLock/Fir_App1_ReentrantLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/App1_ReentrantLock/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/App1_Sempahore/Fir_App1_Semaphore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/App1_Sempahore/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/App2_ReentrantLock/Fir_App2_1_ReentrantLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/App2_ReentrantLock/Fir_App2_2_ReentrantLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/App2_ReentrantLock/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/App2_Semaphore/Fir_App2_1_Semaphore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/App2_Semaphore/Fir_App2_2_Semaphore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/App2_Semaphore/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/App3/Fir_App3_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/App3/Fir_App3_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/App3/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/App4/App4_PN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/Diagrams.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/Diagrams/EX1CD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/Diagrams/EX1CD_semaphore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/Diagrams/EX1SM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/Diagrams/EX1SM_semaphore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/Diagrams/EX1SQ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/Diagrams/EX1SQ_semaphore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/Diagrams/EX2CD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/Diagrams/EX2CD_semaphore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/Diagrams/EX2SM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/Diagrams/EX2SM_semaphore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/Diagrams/EX3CD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/Diagrams/EX3SM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/src/Diagrams/EX3SQ.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2hTPcSWKFnNnc1cT7iKO4WcyUyd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App1.App1Lab7.Main" />
+      <module name="lab6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="App1.App1Lab7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13753a63-6916-446d-b1e6-ca795b1aa569" name="Changes" comment="" />
+      <created>1717615175018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717615175018</updated>
+      <workItem from="1717615176176" duration="74000" />
+      <workItem from="1717615439391" duration="226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
