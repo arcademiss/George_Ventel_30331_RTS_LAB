@@ -70,7 +70,7 @@ public class Robot {
 		grdT2.Activations.add(new Activation(t_2, "p_1", TransitionOperation.Move, "p_0"));
 		t_2.GuardMappingList.add(grdT2);
 
-		t_2.Delay = 2;
+		t_2.Delay = 5;
 		pn.Transitions.add(t_2);
 
 		System.out.println("Exp1 started \n ------------------------------");

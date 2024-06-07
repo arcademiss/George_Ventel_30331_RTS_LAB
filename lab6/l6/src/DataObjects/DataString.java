@@ -5,7 +5,7 @@ import java.io.Serializable;
 import Enumerations.PetriObjectType;
 import Interfaces.PetriObject;
 
-public class DataString implements Interfaces.PetriObject, Cloneable, Serializable {
+public class DataString implements PetriObject, Cloneable, Serializable {
 	/**
 	 * 
 	 */

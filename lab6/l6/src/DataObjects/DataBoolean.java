@@ -5,7 +5,7 @@ import java.io.Serializable;
 import Enumerations.PetriObjectType;
 import Interfaces.PetriObject;
 
-public class DataBoolean implements Interfaces.PetriObject, Cloneable, Serializable {
+public class DataBoolean implements PetriObject, Cloneable, Serializable {
 	/**
 	 * 
 	 */

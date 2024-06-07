@@ -36,10 +36,11 @@ public class Controller {
 		p_2.SetName("p_2");
 		pn.PlaceList.add(p_2);
 
-		DataInteger p_o1 = new DataInteger();
+		DataTransfer p_o1 = new DataTransfer();
 		p_o1.SetName("p_o1");
+		p_o1.Value = new TransferOperation("localhost", "1082", "ps_i2");
 		pn.PlaceList.add(p_o1);
-		
+
 		DataTransfer p_o2 = new DataTransfer();
 		p_o2.SetName("p_o2");
 		p_o2.Value = new TransferOperation("localhost", "1081", "p_i");
@@ -77,7 +78,7 @@ public class Controller {
 		GuardMapping grdT11 = new GuardMapping();
 		grdT11.condition = T1Ct1;
 
-		grdT11.Activations.add(new Activation(t_1, "Halt", TransitionOperation.Move, "p_2"));
+		grdT11.Activations.add(new Activation(t_1, "Halt", TransitionOperation.Copy, "p_2"));
 
 		t_1.GuardMappingList.add(grdT11);
 
@@ -92,7 +93,7 @@ public class Controller {
 		GuardMapping grdT12 = new GuardMapping();
 		grdT12.condition = T1Ct4;
 
-		grdT12.Activations.add(new Activation(t_1, "Right", TransitionOperation.Move, "p_2"));
+		grdT12.Activations.add(new Activation(t_1, "Right", TransitionOperation.Copy, "p_2"));
 		grdT12.Activations.add(new Activation(t_1, "p_i1", TransitionOperation.Move, "p_i1"));
 		t_1.GuardMappingList.add(grdT12);
 
@@ -107,7 +108,7 @@ public class Controller {
 		GuardMapping grdT13 = new GuardMapping();
 		grdT13.condition = T1Ct7;
 
-		grdT13.Activations.add(new Activation(t_1, "Left", TransitionOperation.Move, "p_2"));
+		grdT13.Activations.add(new Activation(t_1, "Left", TransitionOperation.Copy, "p_2"));
 		grdT13.Activations.add(new Activation(t_1, "p_i1", TransitionOperation.Move, "p_i1"));
 		t_1.GuardMappingList.add(grdT13);
 
@@ -128,7 +129,9 @@ public class Controller {
 		grdT2.condition = T2Ct1;
 
 		grdT2.Activations.add(new Activation(t_2, "p_i2", TransitionOperation.Move, "p_1"));
-		grdT2.Activations.add(new Activation(t_2, "p_i2", TransitionOperation.Move, "p_o1"));
+		grdT2.Activations.add(new Activation(t_2, "p_i2", TransitionOperation.SendOverNetwork, "p_o1"));
+		//Send to the Supervisor:
+		//P_o1 must be turned to a data transfer that is linked to the supervisor
 		t_2.GuardMappingList.add(grdT2);
 
 		t_2.Delay = 0;
@@ -162,4 +165,3 @@ public class Controller {
 
 	}
 }
-

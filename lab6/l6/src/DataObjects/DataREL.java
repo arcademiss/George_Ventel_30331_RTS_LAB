@@ -6,7 +6,7 @@ import DataOnly.REL;
 import Enumerations.PetriObjectType;
 import Interfaces.PetriObject;
 
-public class DataREL  implements Interfaces.PetriObject, Cloneable, Serializable{
+public class DataREL  implements PetriObject, Cloneable, Serializable{
 	/**
 	 * 
 	 */

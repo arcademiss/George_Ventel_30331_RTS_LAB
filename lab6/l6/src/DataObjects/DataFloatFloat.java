@@ -7,7 +7,7 @@ import DataOnly.FloatFloat;
 import Enumerations.PetriObjectType;
 import Interfaces.PetriObject;
 
-public class DataFloatFloat implements Interfaces.PetriObject, Cloneable, Serializable {
+public class DataFloatFloat implements PetriObject, Cloneable, Serializable {
 	/**
 	 * 
 	 */

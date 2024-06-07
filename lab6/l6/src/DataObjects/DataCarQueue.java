@@ -5,7 +5,7 @@ import DataOnly.CarQueue;
 import Enumerations.PetriObjectType;
 import Interfaces.PetriObject;
 
-public class DataCarQueue implements Interfaces.PetriObject, Cloneable, Serializable {
+public class DataCarQueue implements PetriObject, Cloneable, Serializable {
 	/**
 	 * 
 	 */

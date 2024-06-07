@@ -11,7 +11,7 @@ import Enumerations.PetriObjectType;
 import Interfaces.PetriObject;
 import Utilities.DataOverNetwork;
 
-public class DataTransfer  implements Interfaces.PetriObject, Cloneable, Serializable  {
+public class DataTransfer  implements PetriObject, Cloneable, Serializable  {
 	/**
 	 * 
 	 */
